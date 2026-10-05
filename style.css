@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: white;
+
+}
+nav{
+    background-color:blue ;
+    color: white;
+    padding: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    background-color: #afbef0;
+    padding:40px;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+
+}
+.htext h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.htext p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.himage img{
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+}
+.content{
+    padding:40px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 40px;
+    
+}
+.left h2{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.course-list{
+    margin-left:30px;
+    margin-top: 15px;
+}
+.course-list li{
+    margin-bottom: 10px;
+}
+.contact{
+    margin-top:30px;
+    border:1px solid gray;
+    padding:20px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.contact-box button{
+    width:100%;
+    padding:10px;
+    background-color:blue;
+    color:white;
+    border:none;
+}
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+
+    padding:15px;
+    margin-top: 20px;
+}
